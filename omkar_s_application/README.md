@@ -2,20 +2,20 @@
 
 A modern React-based project utilizing the latest frontend technologies and tools for building responsive web applications.
 
-## 🚀 Features
+##  Features
 
 - **React 18** - React version with improved rendering and concurrent features
 - **Vite** - Lightning-fast build tool and development server
 - **TailwindCSS** - Utility-first CSS framework with extensive customization
 - **React Router** - Declarative routing for React applications
 
-## 📋 Prerequisites
+##  Prerequisites
 
 - Node.js (v14.x or higher)
 - npm or yarn
 
 
-## 🛠️ Installation
+## 🛠 Installation
 
 1. Install dependencies:
   ```bash
@@ -31,7 +31,7 @@ A modern React-based project utilizing the latest frontend technologies and tool
   yarn start
   ```
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 /
@@ -50,7 +50,7 @@ A modern React-based project utilizing the latest frontend technologies and tool
 ├── vite.config.ts       # Vite configuration
 ```
 
-## 🧩 Adding Routes
+##  Adding Routes
 
 To add new routes to the application, update the `Routes.tsx` file:
 
@@ -76,7 +76,7 @@ const AppRoutes = () => {
 export default AppRoutes;
 ```
 
-## 🎨 Styling
+##  Styling
 
 This project uses Tailwind CSS for styling. The configuration includes:
 
@@ -86,7 +86,7 @@ This project uses Tailwind CSS for styling. The configuration includes:
 - PostCSS and Autoprefixer integration
 
 
-## 📦 Deployment
+##  Deployment
 
 Build the application for production:
 
@@ -94,10 +94,3 @@ Build the application for production:
 npm run build
 ```
 
-## 🙏 Acknowledgments
-
-- Built with [Rocket.new](https://rocket.new)
-- Powered by React and Vite
-- Styled with Tailwind CSS
-
-Built with ❤️ on Rocket.new
