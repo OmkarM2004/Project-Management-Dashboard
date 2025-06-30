@@ -1,0 +1,99 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Global Colors */
+    --global-bg-1: #d2e0d4;
+    --global-bg-2: #dccffc;
+    --global-bg-3: #e2e2e2;
+    --global-bg-4: #e8f0e9;
+    --global-bg-5: #eae3fc;
+    --global-bg-6: #eeeeee;
+    --global-bg-7: #f6f6f6;
+    --global-bg-8: #f8fafc;
+    --global-bg-9: #fac2af;
+    --global-bg-10: #ffe9e0;
+    --global-bg-11: #ffffff;
+    --global-bg-12: #4b6a4f;
+
+    /* Global Text Colors */
+    --global-text-1: #121212;
+    --global-text-2: #3e5741;
+    --global-text-3: #463e59;
+    --global-text-4: #505450;
+    --global-text-5: #545454;
+    --global-text-6: #645c7f;
+    --global-text-7: #666c66;
+    --global-text-8: #695149;
+    --global-text-9: #757575;
+    --global-text-10: #8c6b61;
+    --global-text-11: #afafaf;
+
+    /* Header Colors */
+    --header-bg-1: #4b6a4f;
+    --header-text-1: #f6f6f6;
+
+    /* Button Colors */
+    --button-bg-1: #d2f2e2;
+    --button-bg-2: #e2e8f0;
+    --button-bg-3: #ffe1dd;
+    --button-bg-4: #fff3d6;
+    --button-text-1: #0a6d3c;
+    --button-text-2: #1a8cff;
+    --button-text-3: #475569;
+    --button-text-4: #84640a;
+    --button-text-5: #c12119;
+    --button-text-6: #c1920f;
+    --button-text-7: #ef4c43;
+    --button-text-8: #ffffff;
+  }
+}
+
+@layer utilities {
+  /* Global Background Colors */
+  .bg-global-1 { background-color: var(--global-bg-1); }
+  .bg-global-2 { background-color: var(--global-bg-2); }
+  .bg-global-3 { background-color: var(--global-bg-3); }
+  .bg-global-4 { background-color: var(--global-bg-4); }
+  .bg-global-5 { background-color: var(--global-bg-5); }
+  .bg-global-6 { background-color: var(--global-bg-6); }
+  .bg-global-7 { background-color: var(--global-bg-7); }
+  .bg-global-8 { background-color: var(--global-bg-8); }
+  .bg-global-9 { background-color: var(--global-bg-9); }
+  .bg-global-10 { background-color: var(--global-bg-10); }
+  .bg-global-11 { background-color: var(--global-bg-11); }
+  .bg-global-12 { background-color: var(--global-bg-12); }
+
+  /* Global Text Colors */
+  .text-global-1 { color: var(--global-text-1); }
+  .text-global-2 { color: var(--global-text-2); }
+  .text-global-3 { color: var(--global-text-3); }
+  .text-global-4 { color: var(--global-text-4); }
+  .text-global-5 { color: var(--global-text-5); }
+  .text-global-6 { color: var(--global-text-6); }
+  .text-global-7 { color: var(--global-text-7); }
+  .text-global-8 { color: var(--global-text-8); }
+  .text-global-9 { color: var(--global-text-9); }
+  .text-global-10 { color: var(--global-text-10); }
+  .text-global-11 { color: var(--global-text-11); }
+
+  /* Header Colors */
+  .bg-header-1 { background-color: var(--header-bg-1); }
+  .text-header-1 { color: var(--header-text-1); }
+
+  /* Button Colors */
+  .bg-button-1 { background-color: var(--button-bg-1); }
+  .bg-button-2 { background-color: var(--button-bg-2); }
+  .bg-button-3 { background-color: var(--button-bg-3); }
+  .bg-button-4 { background-color: var(--button-bg-4); }
+  .text-button-1 { color: var(--button-text-1); }
+  .text-button-2 { color: var(--button-text-2); }
+  .text-button-3 { color: var(--button-text-3); }
+  .text-button-4 { color: var(--button-text-4); }
+  .text-button-5 { color: var(--button-text-5); }
+  .text-button-6 { color: var(--button-text-6); }
+  .text-button-7 { color: var(--button-text-7); }
+  .text-button-8 { color: var(--button-text-8); }
+}
